@@ -1,0 +1,86 @@
+.ana{
+    font-family: 'Open Sans';
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 100%;
+}
+.yazarlar{
+    border: 1px solid #d9d9d9;
+}
+.ana h1{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.cizgi{
+    border-bottom-width: 0.5px;
+    border-bottom: #d9d9d9;
+    border-bottom-style: solid;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+.profil{
+  border-radius: 50%;
+  height: 60px;
+  float: left;
+}
+
+.yazar h2{
+
+    margin: 0px;
+    margin-right: 5px;
+    border-bottom-width: 1px;
+    border-bottom: #d9d9d9;
+    border-bottom-style: solid;
+    padding-bottom: 3px;
+}
+
+.yazar p{
+   width: 90%;
+   height: 100px;
+   margin: auto;
+}
+.devamoku{
+    text-decoration: none;
+}
+.devamoku:hover{
+    color: bisque;
+    transition: all linear 100ms;
+}
+
+.baglantilar{
+    text-align: center;
+    height: 130px;
+}
+.baglantilar img{
+	width: 50px;
+	height: 50px;
+}
+.baglantilar .link1{
+    display: inline;
+}
+.baglantilar .link2{
+	display: none;
+}
+.baglantilar a{
+    margin-right: 5px;
+}
+.baglantilar a:hover .link1{
+	display: none;
+}
+
+.baglantilar a:hover .link2{
+	display: inline;
+}
+.baglantilar h1{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  font-size: 18px;
+}

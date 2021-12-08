@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans";
+}
+footer{
+	width: 82%;
+	margin: auto;
+	height: 200px;
+	background-color: #505154;
+	display: flex;
+	justify-content: space-around;
+}
+footer .box{
+	width: 25%;
+	height: 170px;
+	float: left;
+	line-height: 30px;
+	color: white;
+	padding-top: 30px;
+}
+.footerLogo{
+	width: 100%;
+	height: 140px;
+	margin-top: 30px;
+}
+.box li{
+	width: 100%;
+	height: 30px;
+	margin-top: 2px;
+	list-style: none;
+	float: left;
+	font-size: 15px;
+}
+.box li a{
+	width: 30%;
+	text-align: center;
+	line-height: 25px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.box li a:hover{color: #c3a36b; font-weight: bold;}
+#iletisim li{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+#iletisim p{
+	width: 80%;
+	height: 40px;
+	float: left;
+	margin-left: 1%;
+}
+#iletisim li img{
+	margin-top: 5px;
+	width: 30px;
+	height: 30px;
+	float: left;
+}
+
